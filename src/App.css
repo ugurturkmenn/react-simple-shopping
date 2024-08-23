@@ -1,0 +1,16 @@
+.container {
+  width: min(95vw, 1000px);
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.page-content {
+  margin-top: 90px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 1rem;
+  margin-top: 90px
+}

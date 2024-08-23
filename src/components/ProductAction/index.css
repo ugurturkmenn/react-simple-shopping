@@ -1,0 +1,56 @@
+.awrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.innerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.innerWrapper div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 2rem;
+  border: 1px solid #e0e0e0;
+  user-select: none;
+}
+
+.innerWrapper div:first-of-type {
+  background-color: #e0e0e0;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  border-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.innerWrapper div:last-of-type {
+  background-color: #e0e0e0;
+  border-left: none;
+  border-radius: 0 6px 6px 0;
+  border-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.innerWrapper div:nth-of-type(2) {
+  width: 3.5rem;
+}
+
+.addToCart {
+  display: flex;
+  gap: 0.5rem;
+  align-content: center;
+  cursor: pointer;
+  user-select: none;
+  background-color: #8ac926;
+  text-align: center;
+  line-height: 38px;
+  padding: 0 0.75rem;
+  border-radius: 6px;
+  font-weight: 600;
+  align-items: center;
+}
